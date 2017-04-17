@@ -1,0 +1,26 @@
+{
+    "name": "tic-tac-toe",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack",
+        "client": "webpack-dev-server --port 3000"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "yarn": "^0.21.3"
+    },
+    "dependencies": {
+        "ace-css": "1.1",
+        "css-loader": "^0.27.3",
+        "elm-webpack-loader": "^4.3.0",
+        "file-loader": "^0.10.1",
+        "font-awesome": "4",
+        "style-loader": "^0.16.0",
+        "url-loader": "^0.5.8",
+        "webpack": "^2.3.2",
+        "webpack-dev-server": "^2.4.2"
+    }
+}
