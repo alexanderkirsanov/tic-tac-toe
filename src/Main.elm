@@ -8,18 +8,21 @@ import View.View exposing (view)
 
 
 game : Game
-game = {
-     board = List.repeat 3 (List.repeat 3 Nothing),
-     turn = Models.X
- }
+game =
+    { board = List.repeat 3 (List.repeat 3 Nothing)
+    , turn = Models.X
+    }
+
+
 init : ( Game, Cmd Msg )
 init =
-    (game, Cmd.none )
+    ( game, Cmd.none )
 
 
 subscriptions : Game -> Sub Msg
 subscriptions model =
     Sub.none
+
 
 
 -- MAIN

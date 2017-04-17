@@ -1,5 +1,7 @@
 module Msgs exposing (..)
-import Models exposing(Player)
+
+import Models exposing (Player)
+
 
 type Msg
     = NoOp
