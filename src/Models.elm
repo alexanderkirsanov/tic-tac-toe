@@ -17,4 +17,5 @@ type alias Board =
 type alias Game =
     { board : Board
     , turn : Player
+    , winner : Maybe Player
     }

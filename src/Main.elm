@@ -11,6 +11,7 @@ game : Game
 game =
     { board = List.repeat 3 (List.repeat 3 Nothing)
     , turn = Models.X
+    , winner = Nothing
     }
 
 
